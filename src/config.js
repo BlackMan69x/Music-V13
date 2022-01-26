@@ -1,12 +1,12 @@
 module.exports = {
-    token: "",
-    prefix: "",
-    ownerID: "",
-    SpotifyID: "",
-    SpotifySecret: "",
-    mongourl: "",
-    embedColor: "",
-    logs: "",
+    token: "OTMzMDAwMzMxNTMxNTMwMjUx.YebKRQ.HrK0BbF1z-kx8GlfXu7CtsV7L1M",
+    prefix: "$",
+    ownerID: "802491275445010443",
+    SpotifyID: "bf5ee2a72bae40ffadc71a47280e5ff9",
+    SpotifySecret: "053469ffeb3844079fab734ebf3090c2",
+    mongourl: "mongodb+srv://monty:rama2211@cluster0.xk22y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    embedColor: "RANDOM",
+    logs: "933777715247611924",
 
   nodes: {
      
