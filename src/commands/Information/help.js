@@ -11,7 +11,7 @@ module.exports = {
  execute: async (message, args, client, prefix) => {
       const embed = new MessageEmbed()
 
-       .setTitle("**Help - Menu**")
+    .setTitle("**Help - Menu**")
     .addField("İnformation","`setprefix`, `invite`, `status`") 
     .addField("Music","`play`, `skip`, `stop`, `pause`, `resume`, `shuffle`, `seek`, `skipto`, `loop`, `remove`, `queue`, `filters`, `nowplaying`, `clearqueue`, `24/7`, `leave`") 
     .addField("Filter","`party`, `bass`, `radio`, `pop`, `trablebass`, `soft`, `custom`, `off`")
