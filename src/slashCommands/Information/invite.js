@@ -11,7 +11,7 @@ module.exports = {
 
          const mainPage = new MessageEmbed()
              .setColor(client.embedColor)
-            .setDescription(`click [this link](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot)`)
+            .setDescription(`click [this link](https://discord.com/api/oauth2/authorize?client_id=933000331531530251&permissions=8&scope=bot%20applications.commands)`)
            await interaction.followUp({embeds: [mainPage]})
     }
 		}
