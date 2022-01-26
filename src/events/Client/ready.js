@@ -5,7 +5,7 @@ module.exports = async (client) => {
     client.logger.log(`${client.user.username} online!`, "ready");
     client.logger.log(`Ready on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users`, "ready");
     //Game
-    let statuses = ['/help - by Remix Community', `${prefix}help Created by Carlo`];
+    let statuses = ['/help - by Snow Ball', `${prefix}help Created by BlackMan`];
     setInterval(function() {
   		let status = statuses[Math.floor(Math.random()*statuses.length)];
   		client.user.setActivity(status, {type: "PLAYING"});
