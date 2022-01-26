@@ -6,7 +6,7 @@ const si = require('systeminformation');
 
 module.exports = {
     name: "status",
-    description: "Show status of Carlo Music",
+    description: "Show status of Extrovert Bot ⚡",
     run: async (client, interaction) => {
 
       await interaction.deferReply({
