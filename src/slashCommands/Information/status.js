@@ -14,7 +14,6 @@ module.exports = {
         });
 
        const duration1 = moment.duration(interaction.client.uptime).format(" D [days], H [hrs], m [mins], s [secs]");
-        const cpu = await si.cpu();
         const about = interaction.client.emoji.about;
         let ccount = client.channels.cache.size;
         let scount = client.guilds.cache.size;
@@ -24,10 +23,10 @@ client.guilds.cache.forEach((guild) => {
 
 })
         const embed = new MessageEmbed()
-            .setColor(message.client.embedColor)
-            .setThumbnail(message.client.user.displayAvatarURL())
-            .setDescription(`**Application Information**\n❯ **Guilds**: ${scount}\n❯ **Discord.js**: v${version}\n❯ **Uptime**: ${duration1}\n❯ **Speed**: ${os.cpus()[0].speed} MHz\n❯ **Memory**: ${(os.totalmem() / 1024 / 1024).toFixed(2)} Mbps`)
-
-        interaction.followUp({embeds: [embed]});
+            .setColor(interaction.client.embedColor)
+            .setThumbnail(interaction.client.user.displayAvatarURL())
+            .setDescription(`**Application Information**\n❯ **Creator**: <@906113950058422293>\n❯ **Guilds**: ${scount}\n❯ **Discord.js**: v${version}\n❯ **Uptime**: ${duration1}\n❯ **Speed**: ${os.cpus()[0].speed} MHz\n❯ **Memory**: ${(os.totalmem() / 1024 / 1024).toFixed(2)} Mbps`)
+        
+      interaction.followUp({embeds: [embed]});
     }
 }
