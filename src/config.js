@@ -6,7 +6,7 @@ module.exports = {
     SpotifySecret: "053469ffeb3844079fab734ebf3090c2",
     mongourl: "mongodb+srv://carloganjos12:carloganjos12@cluster0.vj8lc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     embedColor: "RANDOM",
-    logs: "933777715247611924",
+    logs: "935966946636222504",
 
   nodes: {
      
