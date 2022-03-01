@@ -13,7 +13,7 @@ module.exports = {
       message.reply({
         embeds: [
           new MessageEmbed().setColor("RANDOM")
-          .setDescription(`Click [this Link](https://discord.com/api/oauth2/authorize?client_id=933000331531530251&permissions=8&scope=bot%20applications.commands)`)
+          .setDescription(`Click [this Link](https://discord.com/api/oauth2/authorize?client_id=924397725624184832&permissions=8&scope=bot%20applications.commands)`)
         ]
       });
     }
